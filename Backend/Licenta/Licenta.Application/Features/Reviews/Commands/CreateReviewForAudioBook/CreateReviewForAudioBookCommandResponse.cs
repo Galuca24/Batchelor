@@ -1,0 +1,19 @@
+﻿using Licenta.Application.Responses;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Licenta.Application.Features.Reviews.Commands.CreateReviewForAudioBook
+{
+    public class CreateReviewForAudioBookCommandResponse : BaseResponse
+    {
+        public CreateReviewForAudioBookCommandResponse() : base()
+        {
+        }
+
+        public CreateReviewForAudioDto Review { get; set; }
+    }
+    
+}

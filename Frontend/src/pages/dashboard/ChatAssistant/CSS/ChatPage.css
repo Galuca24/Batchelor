@@ -1,0 +1,72 @@
+.dot {
+    display: inline-block;
+    animation: bounce 1s infinite;
+  }
+  
+  .dot.delay-200 {
+    animation-delay: 0.2s;
+  }
+  
+  .dot.delay-400 {
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes bounce {
+    0%, 80%, 100% {
+      transform: scale(0);
+    }
+    40% {
+      transform: scale(1);
+    }
+  }
+  
+
+  .container {
+    height: 100vw;
+    width: 1000px;
+  }
+  
+  /* Stiluri pentru ecranul mai mic de 1140px */
+  @media (min-width: 1140px) {
+    .container {
+      height: 47.6vw;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    .container {
+      height: 67.6vw;
+    }
+  }
+
+  @media (max-width: 1139px) {
+    .container {
+      height: 69.6vw;
+    }
+  }
+
+  
+  @media (max-width: 1000px) {
+    .container {
+      height: 76.6vw;
+    }
+  }
+
+
+  @media (max-width: 760px) {
+    .container {
+      height: 100.6vw;
+    }
+  }
+
+  @media (max-width: 730px) {
+    .container {
+      height: 100.6vw;
+    }
+  }
+
+  @media (max-width: 568px) {
+    .container {
+      height: 130.6vw;
+    }
+  }
